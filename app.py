@@ -28,10 +28,10 @@ class Feedback(db.Model):
         self.customer = customer
         self.comments = comments
 
-    
+'''   
 db.create_all()
 db.session.commit()
-
+'''
 
 @app.route('/')
 def index():
